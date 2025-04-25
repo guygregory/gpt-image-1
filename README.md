@@ -22,3 +22,10 @@ This repository contains Python samples demonstrating how to generate images usi
 ## Known issues
 - There's a bug when downloading the file in the Gradio app - it always downloads as a .webp, despite what output format the user requests
 - C2PA Content Credentials don't work reliably right now
+
+## Further reading
+- [Microsoft Learn Documentation](https://learn.microsoft.com/en-gb/azure/ai-services/openai/how-to/dall-e?tabs=gpt-image-1)
+- [Apply for access](http://aka.ms/oai/gptimage1access)
+- [Model availability](https://learn.microsoft.com/azure/ai-services/openai/concepts/models?tabs=global-standard%2Cstandard-chat-completions#image-generation-models)
+- [Model card](https://ai.azure.com/explore/models/gpt-image-1/version/2025-04-15/registry/azure-openai)
+- [Microsoft announcement blog](http://aka.ms/GPT-image-1)

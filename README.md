@@ -7,6 +7,8 @@ This repository contains Python samples demonstrating how to generate images usi
 - [`generate-aoai.py`](GPT-image-1/generate-aoai.py): Minimal script to generate an image from a prompt and save it to disk using Azure OpenAI.
 - [`generate-gradio.py`](GPT-image-1/generate-gradio.py): Interactive Gradio web app for generating images with customisable parameters.
 
+![image](https://github.com/user-attachments/assets/8df46135-e429-4f11-9f1f-1a7d949be717)
+
 ## Requirements
 
 - Python 3.8+

@@ -1,11 +1,11 @@
 # Azure OpenAI Image Generation Demos
 
-This repository contains Python samples demonstrating how to generate images using Azure OpenAI's gpt-image-1 model, both with a simple script and an interactive Gradio web app.
+This repository contains Python samples demonstrating how to generate images using OpenAI's gpt-image-1 model, both with a simple script and an interactive Gradio web app.
 
 ## Contents
 
 - [`generate-aoai.py`](GPT-image-1/generate-aoai.py): Minimal script to generate an image from a prompt and save it to disk using Azure OpenAI.
-- [`generate-gradio.py`](GPT-image-1/generate-gradio.py): Interactive Gradio web app for generating images with customisable parameters.
+- [`generate-gradio.py`](GPT-image-1/generate-gradio.py): Interactive Gradio web app for generating images with customisable parameters. Compatible with Azure OpenAI, and OpenAI's API.
 
 ![image](https://github.com/user-attachments/assets/8df46135-e429-4f11-9f1f-1a7d949be717)
 

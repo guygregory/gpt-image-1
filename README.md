@@ -19,5 +19,5 @@ This repository contains Python samples demonstrating how to generate images usi
   pip install openai python-dotenv gradio pillow
 
 ## Known issues
-- There's a bug when downloading the file in the Gradio app - it always downloads as a .webp, despite what format the user requests
+- There's a bug when downloading the file in the Gradio app - it always downloads as a .webp, despite what output format the user requests
 - C2PA Content Credentials don't work reliably right now

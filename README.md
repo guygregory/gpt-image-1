@@ -13,7 +13,7 @@ This repository contains Python samples demonstrating how to generate images usi
 ## Requirements
 
 - Python 3.8+
-- Azure OpenAI resource with image generation enabled (OpenAI is also supported for the Gradio app)
+- Azure OpenAI resource with gpt-image-1 deployed (OpenAI is also supported for the Gradio app)
 - `.env` file with required environment variables (see `.env.sample` for details)
 - Install dependencies:
   ```sh

@@ -20,7 +20,7 @@ def get_client(host: str):
     if host == "AzureOpenAI":
         deployment = os.environ["AZURE_OPENAI_API_IMAGE_MODEL"]
         client = AzureOpenAI(
-            api_key=os.environ["AZURE_OPENAI_IMAGE_API_KEY"],
+            api_key=os.environ["AZURE_OPENAI_API_IMAGE_KEY"],
             api_version=os.environ["AZURE_OPENAI_API_VERSION"],
             azure_endpoint=os.environ["AZURE_OPENAI_API_IMAGE_ENDPOINT"]
         )

@@ -21,7 +21,7 @@ result = client.images.generate(
     # moderation="low", # Optional. Must be either low for less restrictive filtering or auto (default value)
     # output_compression=100, # Optional. Integer 0-100. Compression level for webp/jpeg. Defaults to 100.
     # quality="high", # Optional. Must be one of auto (default), high, medium, low.
-    size="1024x1535", # Optional. Must be one of 1024x1024, 1536x1024, 1024x1536, or auto (default).
+    # size="auto", # Optional. Must be one of 1024x1024, 1536x1024, 1024x1536, or auto (default).
 )
 
 image_base64 = result.data[0].b64_json

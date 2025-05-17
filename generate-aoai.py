@@ -15,7 +15,7 @@ output_format = "png" # Optional. Must be one of png, jpeg, or webp. Defaults to
 
 result = client.images.generate(
     model=os.environ["AZURE_OPENAI_API_IMAGE_MODEL"],
-    prompt="Hyper realistic photo from the point of view of a Formula 1 driver, taken during the 2024 season. The circuit is Spa-Francorchames, Belgium. The car is at the bottom of the hill at the iconic Eau Rouge section of the circuit. Photo quality is consistent with a modern onboard camera", # maximum length is 32000 characters
+    prompt="Hyper realistic photo from the point of view of a Formula 1 driver, taken during the 2024 season. The circuit is Spa‑Francorchamps, Belgium. The car is at the bottom of the hill at the iconic Eau Rouge section of the circuit. Photo quality is consistent with a modern onboard camera", # maximum length is 32000 characters
     output_format=output_format, # Optional. Must be one of png, jpeg, or webp. Defaults to png.
     # background="auto", # Optional. Must be one of transparent, opaque or auto (default value)
     # moderation="low", # Optional. Must be either low for less restrictive filtering or auto (default value)
